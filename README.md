@@ -1,8 +1,8 @@
 # Model-Warna-pada-citra
 
-pengujian model citra pada warna
+## Pengujian Model Warna Pada Citra
 
-<code>
+```python
 # Image Processing Techniques on Google Colab
 
 from google.colab import files
@@ -21,8 +21,9 @@ image_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 # Fungsi untuk menampilkan gambar asli dan hasil proses
 
 def show_images(title1, image1, title2, image2):
-    plt.figure(figsize=(12,6))
 
+    plt.figure(figsize=(12,6))
+    
     plt.subplot(1, 2, 1)
     plt.imshow(image1, cmap='gray')
     plt.title(title1)
@@ -70,5 +71,7 @@ show_images('Gambar Asli (RGB)', image_rgb, 'Konversi RGB ke HSI (Hue Component)
 threshold_value = 120
 _, threshold_image = cv2.threshold(image_hsi[:,:,2], threshold_value, 255, cv2.THRESH_BINARY)
 show_images('Gambar Asli (Intensity Component)', image_hsi[:,:,2], 'Thresholding pada Komponen Intensity', threshold_image)
-</code>
-'''
+```
+
+
+
