@@ -2,7 +2,7 @@
 
 pengujian model citra pada warna
 
-'''python
+<code>
 # Image Processing Techniques on Google Colab
 
 from google.colab import files
@@ -70,4 +70,5 @@ show_images('Gambar Asli (RGB)', image_rgb, 'Konversi RGB ke HSI (Hue Component)
 threshold_value = 120
 _, threshold_image = cv2.threshold(image_hsi[:,:,2], threshold_value, 255, cv2.THRESH_BINARY)
 show_images('Gambar Asli (Intensity Component)', image_hsi[:,:,2], 'Thresholding pada Komponen Intensity', threshold_image)
+</code>
 '''
