@@ -72,6 +72,23 @@ threshold_value = 120
 _, threshold_image = cv2.threshold(image_hsi[:,:,2], threshold_value, 255, cv2.THRESH_BINARY)
 show_images('Gambar Asli (Intensity Component)', image_hsi[:,:,2], 'Thresholding pada Komponen Intensity', threshold_image)
 ```
+GAMBAR ORIGINAL PENGUJIAN : London
+
+![download](https://github.com/user-attachments/assets/e66e33e8-f8d2-43de-80cf-a7bce3453982)
+
+![download](https://github.com/user-attachments/assets/0e49154c-d8eb-43d5-8fd5-34349b424889)
+
+![download](https://github.com/user-attachments/assets/3155c7a5-d8ac-4ae8-800a-67aa45e413e0)
+
+![download](https://github.com/user-attachments/assets/2522ca6c-5d4f-42cf-8270-0b2490913cd6)
+
+![download](https://github.com/user-attachments/assets/c5b596a9-278d-49f8-bdd7-ee90d7073e7f)
+
+![download](https://github.com/user-attachments/assets/97f040fc-478c-4bf2-8f04-b83670000a11)
+
+![download](https://github.com/user-attachments/assets/ad140d9a-e68f-4a9e-823f-b43446f26d55)
+
+![download](https://github.com/user-attachments/assets/3d67d60e-6fb8-444a-9f92-5655041c36b6)
 
 
 
